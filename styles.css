@@ -1,0 +1,108 @@
+body {
+  background: #ed4264; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffedbc,
+    #ed4264
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffedbc,
+    #ed4264
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-shop {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.products-container {
+  border: 2px solid;
+  width: 300px;
+  background-color: #333d47;
+  border-radius: 10px;
+}
+
+.items-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.product {
+  border: 1px dashed;
+  margin: 5px;
+  width: 80px;
+  height: 80px;
+  background: #7d88a1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  margin-left: 5px;
+  width: 150px;
+  border-radius: 10px;
+  background: #333d47;
+}
+.cash-box {
+  background: #7d88a1;
+  width: 90px;
+  height: 100px;
+  border: 1px dashed;
+  margin-left: 30px;
+}
+
+.pay-product {
+  text-align: center;
+}
+
+.container-btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 30px;
+  height: 20px;
+  margin: 5px;
+  color: #fff;
+  background-color: #7d88a1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter {
+  margin: 5px;
+  color: #fff;
+}
+
+.pay-total {
+  display: flex;
+  justify-content: center;
+}
+
+.price {
+  margin-left: 5px;
+}
